@@ -217,4 +217,4 @@ class SwinMlpMixer(nn.Module):
 
 def test():
     model = SwinMlpMixer().cuda()
-    model(torch.ones(3,224,224).cuda())
+    model(torch.ones(1,3,224,224).cuda())
